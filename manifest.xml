@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns="http://ns.adobe.com/adm/manifest/2.0">
+    <ExtensionBundleId>com.aftereffects.flowgraph</ExtensionBundleId>
+    <ExtensionBundleVersion>1.0.0</ExtensionBundleVersion>
+    <ExtensionBundleName>Flow Graph Controller</ExtensionBundleName>
+    <Description>Interactive node-based flow visualization for After Effects</Description>
+
+    <Extension Id="com.aftereffects.flowgraph.panel">
+        <Type>Panel</Type>
+        <RequiredContext>
+            <Context Name="GLOBAL"/>
+        </RequiredContext>
+        <Geometry>
+            <Size>
+                <Width>1000</Width>
+                <Height>700</Height>
+            </Size>
+        </Geometry>
+        <UI>
+            <Type>HTML</Type>
+            <Main>index.html</Main>
+        </UI>
+    </Extension>
+</ExtensionManifest>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Effects Flow Graph UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎬 Flow Graph Controller</h1>
+            <p>Interactive node-based flow visualization</p>
+        </div>
+        
+        <div class="controls">
+            <button id="addNodeBtn" class="btn btn-primary">➕ Add Node</button>
+            <button id="clearBtn" class="btn btn-danger">🗑️ Clear All</button>
+            <span class="info">Double-click two nodes to connect them</span>
+        </div>
+
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
